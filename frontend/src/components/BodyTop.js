@@ -1,6 +1,6 @@
 const BodyTop = () => {
   return (
-    <div className="body-top">
+    <div className="body-top" id="home">
       <div>
         <h2>Order your favourite food here</h2>
         <p>

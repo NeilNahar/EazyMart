@@ -1,7 +1,7 @@
 import { menu_list } from "../assets/assets";
 const ExploreMenu = (props) => {
   return (
-    <div className="explore-menu">
+    <div className="explore-menu" id="menu">
       <h2>Explore Menu</h2>
       <p>
         Explore our extensive menu and embark on a delightful culinary journey,

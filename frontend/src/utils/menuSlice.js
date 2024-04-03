@@ -7,7 +7,6 @@ const menuSlice = createSlice({
   reducers: {},
 });
 
-// Action creators are generated for each case reducer function
-export const { addUser, removeUser } = menuSlice.actions;
+export const {} = menuSlice.actions;
 
 export default menuSlice.reducer;
