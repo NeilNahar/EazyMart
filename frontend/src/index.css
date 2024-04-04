@@ -37,6 +37,53 @@ button{
 button:hover{
   box-shadow: 0px 0px 2px 1px rgb(40, 40, 40);
 }
+.SignInSignUp{
+  width: 100%;
+  height: 100%;
+  z-index: 1;
+  background-color: #00000090;
+  display: grid;
+  position: absolute;
+}
+.SignInSignUp form{
+  background-color: rgba(78, 80, 98);
+  width: min(400px, 50%);
+  padding: 1rem;
+  place-self: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+  box-shadow: 0px 0px 5px 8px gray;
+  border-radius: 2rem;
+  position: relative;
+}
+.SignInSignUp form div{
+  position: absolute;
+  top: 0.5rem;
+  right: 1rem;
+  font-weight: 400;
+  cursor: pointer;
+}
+.SignInSignUp h2{
+  text-align: center;
+  margin-bottom: 1.5rem;
+  font-size: 2rem;
+}
+.SignInSignUp form input{
+  padding: 0.2rem;
+}
+.SignInSignUp form span{
+  cursor: pointer;
+}
+.SignInSignUp p{
+  text-align: center;
+}
+.SignInSignUp form button{
+  padding: 0.5rem 0.8rem;
+  border-radius: 1rem;
+}
 .navbar{
   display: flex;
   /* background-color: #FF6B6B; */
@@ -44,7 +91,8 @@ button:hover{
   justify-content: space-between;
   align-items: center;
   width: 90%;
-  margin: 2rem auto;
+  margin: auto;
+  padding: 2rem 0rem;
 }
 .navbar .logo{
   font-size: 2rem;

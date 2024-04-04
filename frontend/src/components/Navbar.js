@@ -1,7 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
 
-const Navbar = () => {
+const Navbar = (props) => {
   return (
     <div className="navbar">
       <div className="logo">FoodDash</div>
@@ -27,7 +27,7 @@ const Navbar = () => {
           </i>
           <div className="counter"></div>
         </div>
-        <button>Sign In</button>
+        <button onClick={()=>{props.setShowSignInSignUp((prev)=>{return !prev})}}>Sign In</button>
       </div>
     </div>
   );
