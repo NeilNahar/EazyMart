@@ -1,5 +1,6 @@
 import { useSelector, useDispatch } from "react-redux";
 import { ResetKeyValue } from "../utils/foodCartSlice";
+import { Link } from "react-router-dom";
 const Cart = () => {
   const food_list = useSelector((state) => state.menu);
   const dispatch = useDispatch();
@@ -65,7 +66,7 @@ const Cart = () => {
               <p>${calculateTotal() === 0 ? 0 : calculateTotal() + (calculateTotal() / 10)}</p>
             </div>
           </div>
-          <button>Proceed to Checkout</button>
+          <Link to="/order"><button>Proceed to Checkout</button></Link>
         </div>
         <div className="cart-promocode">
           <h3>If you have a promocode, Enter it here</h3>

@@ -346,6 +346,33 @@ button:hover{
 .cart-promocode button{
   padding: 0.2rem 0.4rem;
 }
+.order{
+  width: 90%;
+  margin: 3rem auto 6rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+}
+.order h3{
+  font-size: 2rem;
+}
+.order form{
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+.order form input{
+  padding: 0.2rem;
+}
+.order form div{
+  display: flex;
+  gap: 1rem;
+}
+.order form button{
+  padding: 0.4rem;
+}
 @keyframes fadeIn{
   0%{
     opacity: 0;

@@ -10,7 +10,7 @@ const BodyTop = () => {
           to your doorstep.
         </p>
         <div>
-        <button>View Menu</button>
+        <a href="#menu"><button>View Menu</button></a>
         </div>
       </div>
     </div>
