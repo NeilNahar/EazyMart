@@ -3,12 +3,12 @@ const Footer = () => {
     <div className="footer" id="footer">
       <div className="footer-upper">
         <div className="footer-upper-left">
-          <h2>FoodDash</h2>
+          <h2>EazyMart</h2>
           <p>
-            Welcome to FoodDash, your ultimate destination for delicious meals
-            delivered right to your doorstep! Explore our wide range of cuisines
-            and satisfy your cravings with ease. Order now and experience
-            convenience and flavor in every bite with FoodDash!
+          Welcome to EazyMart, your one-stop shop for all your needs! Discover a
+  diverse selection of products and enjoy the convenience of doorstep
+  delivery. With our user-friendly interface and secure payment options, shopping
+  has never been easier. 
           </p>
           <div>
             <i class="fa-brands fa-facebook"></i>
@@ -28,12 +28,12 @@ const Footer = () => {
           <h3>Get In Touch</h3>
           <div>
             <p>+1(987)876-7654</p>
-            <p>contact@fooddash.com</p>
+            <p>contact@easzymart.com</p>
           </div>
         </div>
       </div>
       <div className="footer-lower">
-      Copyright © 2024 FoodDash. All rights reserved.
+      Copyright © 2024 EazyMart. All rights reserved.
       </div>
     </div>
   );

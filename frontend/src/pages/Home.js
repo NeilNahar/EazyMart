@@ -5,10 +5,11 @@ import DisplayMenu from "../components/DisplayMenu";
 import { useSelector } from "react-redux";
 import AppDownload from "../components/AppDownload";
 const Home = () => {
-  const [category, setCategory] = useState("");
+  const [category, setCategory] = useState("Mobile");
   useEffect(() => {}, [category]);
   const food_list = useSelector((state) => state.menu);
   const food_collection=food_list.filter((item)=>{return (category===""|| category===item.category)})
+  console.log(food_collection)
   return (
     <div>
       <BodyTop />

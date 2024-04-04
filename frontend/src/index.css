@@ -139,11 +139,11 @@ button:hover{
   width: 90%;
   margin: auto;
   padding: 4rem 2rem 2rem;
-  background: url("./assets/header_img.png");
+  background: url("./assets/header_img.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   box-sizing: border-box;
-  color: aliceblue;
+  /* color: alicebluer; */
   box-shadow: 0 0px 10px -5px gray;
   border-radius: 1rem;
   display: flex;

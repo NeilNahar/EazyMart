@@ -5,14 +5,14 @@ const Navbar = (props) => {
   return (
     <div className="navbar">
       <div className="logo">
-        <Link to="/">FoodDash</Link>
+        <Link to="/">EazyMart</Link>
       </div>
       <ul>
         <li>
           <Link to="/">Home</Link>
         </li>
         <li>
-          <a href="#menu">Menu</a>
+          <a href="#menu">Category</a>
         </li>
         <li>
           <a href="#mobile-app">MobileAPP</a>

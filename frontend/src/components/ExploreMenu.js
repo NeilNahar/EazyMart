@@ -2,11 +2,12 @@ import { menu_list } from "../assets/assets";
 const ExploreMenu = (props) => {
   return (
     <div className="explore-menu" id="menu">
-      <h2>Explore Menu</h2>
+      <h2>Explore Category</h2>
       <p>
-        Explore our extensive menu and embark on a delightful culinary journey,
-        where each dish is crafted to tantalize your taste buds and leave you
-        craving for more
+      Find everything you need and more at our online marketplace. Browse through
+  a wide range of products, from trendy fashion to cutting-edge gadgets. With
+  easy navigation and secure transactions, shopping has never been more
+  convenient. Elevate your shopping experience today!
       </p>
       <div>
         {menu_list.map((menu, index) => {
