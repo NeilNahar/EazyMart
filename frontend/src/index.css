@@ -297,6 +297,55 @@ button:hover{
   text-align: center;
   padding: 2rem;
 }
+.cart{
+  width: 70%;
+  margin: 2rem auto;
+}
+.cart-header, .cart-data{
+  display: grid;
+  grid-template-columns: repeat(6,1fr);
+  border-bottom: 2px solid #e2e2e2;
+  align-items: center;
+}
+.cart-header{
+  padding: 0rem 0rem 1rem 0rem;
+}
+.cart-data{
+  padding: 0.5rem 0rem 0.5rem 0.2rem;
+}
+.cart-data img{
+  width: 70px;
+}
+.remove{
+  cursor: pointer;
+}
+.cart-total{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 20%;
+  margin: 5.6rem 0rem 3rem 0rem;
+}
+.cart-total>div>div{
+  margin: 0.5rem 0.2rem;
+}
+.cart-total>div>div>div{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.cart-total-border{
+  border-bottom: 2px solid #e2e2e2;
+}
+.cart-total button{
+  padding: 0.4rem 0.6rem;
+}
+.cart-promocode input{
+  padding: 0.1rem 0.3rem;
+  margin-right: 0.5rem;
+}
+.cart-promocode button{
+  padding: 0.2rem 0.4rem;
+}
 @keyframes fadeIn{
   0%{
     opacity: 0;
@@ -319,5 +368,10 @@ button:hover{
 @media (max-width:500px){
   .footer-upper{
     gap:1rem
+  }
+  .cart-total{
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
   }
 }

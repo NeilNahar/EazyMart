@@ -18,9 +18,16 @@ const foodCartSlice = createSlice({
           [id]: state[id] - 1
         };
       },
+      ResetKeyValue(state, action) {
+        const { id } = action.payload;
+        return {
+          ...state,
+          [id]: 0
+        };
+      },
   },
 });
 
-export const {AddKeyValue, RemoveKeyValue} = foodCartSlice.actions;
+export const {AddKeyValue, RemoveKeyValue, ResetKeyValue} = foodCartSlice.actions;
 
 export default foodCartSlice.reducer;

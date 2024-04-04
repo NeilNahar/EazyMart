@@ -4,8 +4,6 @@ const FoodCard = (props) => {
   const foodCartCollection = useSelector((state) => state.foodCart);
   const dispatch = useDispatch();
   const foodID=props.food["_id"]
-  // console.log(typeof foodID);
-  console.log(foodCartCollection[foodID])
   return (
     <div className="food-card">
       <img src={props.food.image} alt="" />
